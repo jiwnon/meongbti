@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 멍BTI 🐶
 
-## Getting Started
+> 우리 강아지, 어떤 성격일까요?
 
-First, run the development server:
+멍BTI는 반려견의 성격을 8가지 유형으로 분류하고,  
+AI가 우리 강아지에게 딱 맞는 훈련 방법을 코칭해주는 반려견 교육 앱입니다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 이런 분들을 위해 만들었어요
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 강아지를 처음 키우기 시작한 초보 보호자
+- 훈련을 시도했지만 잘 안 됐던 경험이 있는 분
+- 아파트에서 반려견과 함께 살고 있는 분
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 주요 기능
 
-To learn more about Next.js, take a look at the following resources:
+### 🧠 9문항 성격 테스트
+간단한 9개의 질문으로 우리 강아지의 성격 유형을 파악해요.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🐾 멍BTI 8가지 유형
+MBTI처럼 강아지의 성격을 8가지 유형으로 분류해요.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| 유형 | 이름 |
+|------|------|
+| SEB | 에너지 넘치는 사교왕 |
+| SEN | 밝지만 불안한 에너지볼 |
+| SCB | 조용한 애교쟁이 |
+| SCN | 소심한 애교쟁이 |
+| AEB | 독립적 에너자이저 |
+| AEN | 반응형 독립군 |
+| ACB | 차분한 철학자 |
+| ACN | 예민한 은둔자 |
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🤖 AI 맞춤 코칭 채팅
+유형 결과를 바탕으로 AI가 우리 강아지의 성격에 맞는 훈련 방법을 1:1로 알려줘요.  
+"짖음을 줄이려면 어떻게 해야 하나요?" 같은 질문도 바로 답해줘요.
